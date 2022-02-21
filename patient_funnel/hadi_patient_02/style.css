@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+#hero {
+  background-image: url("img/headache_6.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  color: #ffffff;
+  border-radius: 0px!important;
+}
+#hero h1 {
+  color: lightgrey;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 7vw;
+  font-size: max(5vw, 45px);
+  font-size: min(7.5vw, 80px);
+  text-shadow: -1px 1px 20px black;
+}
+#hero h2 {
+  font-family: Tahoma, sans-serif;
+  padding-top: 15px;
+  font-size: 5vw;
+  font-size: max(3.5vw, 35px);
+  font-size: min(6vw, 60px);
+  color: darkslategrey;
+  text-shadow: 3px 3px 5px white;
+
+}
+#hero h1 object {
+  text-shadow: -1px 1px 20px darkred;
+}
+#dark-list {
+  background-color: darkgrey;
+}
+.keyword-icon {
+  height: auto;
+  width: 60%;
+}
+.email-icon {
+  max-width:40%;
+}
+.graph {
+  max-width: 80%;
+}
