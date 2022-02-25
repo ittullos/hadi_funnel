@@ -53,7 +53,7 @@ header {
   font-size: 5vw;
   font-size: max(3.5vw, 35px);
   font-size: min(6vw, 60px);
-  color: darkslategrey;
+  color: #fff;
   text-shadow: 3px 3px 5px white;
 
 }

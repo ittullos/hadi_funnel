@@ -8,20 +8,43 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,900&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>HADI - Headache Data Insight</title>
   </head>
   <body>
     <section id="pain">
-      <div class="jumbotron text-center" id="hero">
-        <div class="container">
-
+      <div id="carouselExampleSlidesOnly" class="carousel slide bg-dark text-light text-center" data-bs-ride="carousel" data-interval="4000">
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-image: url(img/headache_6.jpg)">
+            <header id="hero">
+              <h1><i><strong>Intractable <object>Migraine!</object></strong></i></h1>
+              <h2>What to do?</h2>
+              <a href="#hero-btn"><button type="button" class="btn btn-secondary mb-5 mt-3">Learn More</button></a>
+              <div class="container pb-5 mb-5"></div>
+            </header>
+          </div>
+          <div class="carousel-item" style="background-image: url(img/headache_5.jpg)">
+            <header id="hero">
+              <h1><i><strong>Intractable <object>Migraine!</object></strong></i></h1>
+              <h2>What to do?</h2>
+              <a href="#hero-btn"><button type="button" class="btn btn-secondary mb-5 mt-3">Learn More</button></a>
+              <div class="container pb-5 mb-5"></div>
+            </header>
+          </div>
+          <div class="carousel-item" style="background-image: url(img/headache_1.jpg)">
+            <header id="hero">
+              <h1><i><strong>Intractable <object>Migraine!</object></strong></i></h1>
+              <h2>What to do?</h2>
+              <a href="#hero-btn"><button type="button" class="btn btn-secondary mb-5 mt-3">Learn More</button></a>
+              <div class="container pb-5 mb-5"></div>
+            </header>
+          </div>
         </div>
       </div>
-      <div class="bg-dark text-light p-5 text-center">
+      <div class="bg-dark text-light p-5 text-center" id="hero-btn">
         <div class="container">
           <div class="row">
-            <div class="col-md my-auto pb-sm-4 pb-4 pe-md-5">
+            <div class="col-md my-auto pb-sm-4 pb-4 pe-md-5 pt-md-2 pt-lg-5">
               <h2 class="display-4">"My words didn’t seem to carry much weight with my doctor"</h2>
             </div>
             <div class="col-md">
@@ -36,19 +59,19 @@
     </section>
     <section id="what-is">
       <div class="bg-light text-dark p-5 text-center">
-        <div class="container">
-          <img src="img/HADI_logo.png" class="img-fluid p-5">
+        <div class="container d-flex justify-content-center">
+          <img src="img/HADI_logo.jpeg" class="img-fluid p-5" id="hadi-logo">
         </div>
-        <div class="container mt-5 pb-5">
+        <div class="container mt-1 pb-5 mt-lg-5">
           <div class="row">
-            <div class="col-md my-auto">
-              <h2 class="display-4">Instead of writing a fancy mobile app - I chose the app everyone already has</h2>
-              <h3 class= pt-3>I just text my data to <strong>HADI</strong></h3>
-              <h3>Yep.  Simple text messaging!</h3>
-              <h3>All the fancy is in the analytics and reporting.</h3>
+            <div class="col-lg my-auto">
+              <h2 class="display-3">Instead of writing a fancy mobile app - I chose the app everyone already has</h2>
+              <h3 class="display-6 pt-3">- I just text my data to <strong>HADI</strong></h3>
+              <h3 class="display-6">- Yep.  Simple text messaging!</h3>
+              <h3 class="display-6">- All the fancy is in the analytics and reporting.</h3>
             </div>
-            <div class="col-md pt-4 pt-md-0">
-              <img src="img/hand_phone_2.jpg" class="img-fluid rounded" id="hand">
+            <div class="col-lg mt-4">
+              <img src="img/hand_phone_3.jpg" class="img-fluid rounded" id="hand-phone">
             </div>
           </div>
         </div>
@@ -56,7 +79,7 @@
       <div class="bg-dark text-light p-5 text-center">
         <div class="container pt-4 mt-4">
           <h1 class="display-2 mb-5">You need to tell <strong>HADI</strong> about:</h2>
-          <ul class="list-group display-5 py-5 mb-5" id="dark-list">
+          <ul class="list-group display-5 py-5" id="dark-list">
             <li class="list-group-item py-3">- Pain Levels</li>
             <li class="list-group-item py-3">- Medications</li>
             <li class="list-group-item py-3">- Treatments</li>
@@ -69,11 +92,11 @@
       <div class="bg-light text-dark p-5 text-center">
         <div class="container">
           <div class="row">
-            <div class="col-md py-md-5">
+            <div class="col-lg py-lg-5 mt-xl-3">
               <h2 class="display-3"><u><strong>Pain Level</strong></u></h2>
               <img src="img/PAIN.svg" class="img-fluid keyword-icon">
             </div>
-            <div class="col-md pt-md-4 py-5 mt-lg-4" id="light-list">
+            <div class="col-lg pt-xl-4 py-lg-5 mt-lg-1 mb-4 mt-xl-5" id="light-list">
               <h3 class="display-5 p-2"><strong>- Whenever you want,  just text the number</strong></h3>
               <h3 class="display-6 p-2">- Yes,  just a number from zero to ten (0-10)</h3>
               <h3 class="display-6 p-2">- Then go on with your life</h3>
@@ -81,11 +104,11 @@
           </div>
           <hr>
           <div class="row">
-            <div class="col-md order-md-last py-md-5">
+            <div class="col-lg order-lg-last py-lg-5 mt-4 mt-lg-5 mt-xl-3">
               <h2 class="display-3"><u><strong>Medication</strong></u></h2>
               <img src="img/MED.svg" class="img-fluid keyword-icon">
             </div>
-            <div class="col-md pt-md-4 order-md-first py-5 mt-lg-4" id="light-list">
+            <div class="col-lg pt-xl-4 order-lg-first py-lg-5 mt-lg-1 mb-4 mt-xl-5" id="light-list">
               <h3 class="display-5 p-2"><strong>- When you take something, text HADI the name of your medication</strong></h3>
               <h3 class="display-6 p-2">- Using the keyword: <span class="text-success"><strong>med</strong></span></h3>
               <h3 class="display-6 p-2">- Like this: <span class="text-success"><strong>med Excedrin</strong></span></h3>
@@ -93,11 +116,11 @@
           </div>
           <hr>
           <div class="row">
-            <div class="col-md py-md-5">
+            <div class="col-lg py-lg-5 mt-4 mt-lg-5 mt-xl-1">
               <h2 class="display-3"><u><strong>Treatment</strong></u></h2>
-              <img src="img/DOCTOR.svg" class="img-fluid keyword-icon ps-3">
+              <img src="img/DOCTOR.svg" class="img-fluid keyword-icon ps-3 ms-sm-2 ms-md-4">
             </div>
-            <div class="col-md pt-md-4 py-5 mt-lg-4" id="light-list">
+            <div class="col-lg pt-md-4 py-lg-5 mt-lg-1 mb-4 mt-xl-3" id="light-list">
               <h3 class="display-5 p-2"><strong>- When you receive a treatment, text HADI the name of your treatment</strong></h3>
               <h3 class="display-6 p-2">- Using the keyword: <span class="text-success"><strong>tx</strong></span></h3>
               <h3 class="display-6 p-2">- Like this: <span class="text-success"><strong>tx botox</strong></span></h3>
@@ -105,11 +128,11 @@
           </div>
           <hr>
           <div class="row">
-            <div class="col-md order-md-last py-md-5">
+            <div class="col-lg order-lg-last py-lg-5 mt-4 mt-lg-5 mt-xl-3">
               <h2 class="display-3"><u><strong>Note</strong></u></h2>
-              <img src="img/NOTE.svg" class="img-fluid keyword-icon ps-4">
+              <img src="img/NOTE.svg" class="img-fluid keyword-icon ps-4 ms-sm-3 ms-md-4">
             </div>
-            <div class="col-md pt-md-4 order-md-first mt-lg-4" id="light-list">
+            <div class="col-lg py-lg-5 order-lg-first mt-lg-0 mb-2 mt-xl-1" id="light-list">
               <h3 class="display-5 p-2"><strong>- When something notable happens, text HADI a short comment</strong></h3>
               <h3 class="display-6 p-2">- Using the keyword:  <span class="text-success"><strong>note</strong></span></h3>
               <h3 class="display-6 p-2">- Like this:  <span class="text-success"><strong>note I didn’t sleep well again last night</strong></span></h3>
@@ -127,24 +150,24 @@
           <img src="img/send.svg" class="img-fluid keyword-icon email-icon">
           <h2 class="display-5">- Using the keyword:  <span class="text-success"><strong>email</strong></span></h2>
           <h2 class="display-5 pb-3">- Like this: <span class="text-success"><strong>email jill@example.com</strong></span></h2>
-          <hr>
-          <h2 class="display-3">Then, you can ask HADI for a report using the keyword:  <span class="text-success"><strong>rpt</strong></span></h2>
+          <hr class="my-5">
+          <h2 class="display-3">Then, you can ask <strong>HADI</strong> for a report using the keyword:  <span class="text-success"><strong>rpt</strong></span></h2>
           <h2 class="display-5 pt-3">- Like this:  <span class="text-success"><strong>rpt</strong></span> (for all the reports)</h2>
           <h2 class="display-5">- Or:  <span class="text-success"><strong>rpt problem days</strong></span> (# problem days per week)</h2>
           <h2 class="display-5 pb-3">- Or:  <span class="text-success"><strong>rpt history</strong></span> (entire log)</h2>
-          <hr>
+          <hr class="my-5">
           <img src="img/graph_2.png" class="img-fluid p-md-5 py-4 graph">
           <h1 class="display-2">For instance, text:  <span class="text-success"><strong>rpt history</strong></span></h1>
-          <h2 class="py-3">to see your entire log history at a glance with all your medications and treatments</h2>
+          <h2 class="display-6 py-3">to see your entire log history at a glance with all your medications and treatments</h2>
         </div>
       </div>
     </section>
     <section id="action-call">
       <div class="bg-light text-dark p-5 text-center">
         <div class="container">
-          <h1 class="display-2">Finally, Take your HADI Reports to your Doctor</h1>
-          <img src="img/doctor_report_1.jpg" class="img-fluid rounded p-4 graph">
-          <h2 class="display-3">Remember, <strong>Information is <span class="text-primary">Power!</span></strong></h2>
+          <h1 class="display-2">Finally, Take your <strong>HADI</strong> Reports to your Doctor</h1>
+          <img src="img/doctor_report_1.jpg" class="img-fluid rounded p-0 p-sm-4 mt-3 p-lg-5" id="doctor-report">
+          <h2 class="display-3 my-4">Remember, <strong>Information is <span class="text-primary">Power!</span></strong></h2>
           <img src="img/graph_icon.svg" alt="" class="img-fluid keyword-icon email-icon mt-2">
           <h3 class="display-5 py-3 mt-3">With better <span class="text-success"><strong>information</strong></span>, your doctor will make better <strong>decisions</strong></h3>
           <h3 class="display-5 py-3">You will have <span class="text-primary"><strong>confidence</strong></span> that you have been <strong>heard</strong></h3>
@@ -178,7 +201,6 @@
 
       </div>
       </section>
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
   </body>
 </html>
