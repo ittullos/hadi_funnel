@@ -1,0 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  height: 100vh;
+}
+#hero {
+  background-image: url("img/headache_2.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0 20px;
+  text-align: center;
+}
+#hero h1 {
+  color: lightgrey;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 7vw;
+  font-size: max(5vw, 45px);
+  font-size: min(7.5vw, 80px);
+  text-shadow: -1px 1px 20px black;
+}
+#hero h2 {
+  font-family: Tahoma, sans-serif;
+  padding-top: 15px;
+  font-size: 5vw;
+  font-size: max(3.5vw, 35px);
+  font-size: min(6vw, 60px);
+  color: antiquewhite;
+  text-shadow: 3px 3px 5px grey;
+
+}
+#hero h1 object {
+  text-shadow: -1px 1px 20px darkred;
+}
+#hero .button {
+  font-family: 'Times New Roman', serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: black;
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 15vh;
+  background: white;
+}
+#hero .button:hover {
+  background: #20A0D8;
+}
+.carousel-item {
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  background-color: black;
+}
+#dark-list {
+  background-color: darkgrey;
+}
+.keyword-icon {
+  height: auto;
+  width: 60%;
+}
+.email-icon {
+  max-width: 40%;
+}
+.graph {
+  max-width: 95%;
+}
+#hadi-logo {
+  max-width: 110%;
+}
+@media only screen and (min-width: 768px) {
+ #dark-list {
+   max-width: 75%;
+   margin-left: 85px;
+ }
+ #hadi-logo {
+   max-width: 90%;
+ }
+ #hand-phone {
+   max-width: 75%;
+   margin-top: 30px;
+ }
+}
+@media only screen and (min-width: 992px) {
+  #doctor-report {
+    max-width: 75%;
+  }
+  #dark-list {
+    max-width: 65%;
+    margin-left: 150px;
+  }
+  .graph {
+    max-width: 90%;
+  }
+  #hadi-logo {
+    max-width: 80%;
+  }
+  #hand-phone {
+    max-width: 110%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  #dark-list {
+    max-width: 60%;
+    margin-left: 210px;
+  }
+  .graph {
+    max-width: 80%;
+  }
+  #hadi-logo {
+    max-width: 70%;
+  }
+  #hand-phone {
+    max-width: 87%;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  #dark-list {
+    max-width: 55%;
+    margin-left: 300px;
+  }
+  .graph {
+    max-width: 75%;
+  }
+  #hadi-logo {
+    max-width: 60%;
+  }
+  #hand-phone {
+    max-width: 77%;
+  }
+}
